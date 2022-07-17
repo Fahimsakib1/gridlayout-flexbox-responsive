@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar Using Grid and Flex Box</title>
+
+    <style>
+        h2{
+            text-align: center;
+            color: blue;
+        }
+
+        .container{
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            
+        }
+
+        .box{
+            background-color: skyblue;
+            margin: 10px;
+            padding: 15px;
+            font-size: 35px;
+            font-weight: 900;
+            border-radius: 10px;
+            border: 3px solid black;
+            
+            /* text-align: center; */
+           
+            /* Nicher 3 ta use na kore shudu text-align: center; korleo date gula middle e thakto.*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .other-month{
+            color: blue;
+            font-weight: 800;
+
+        }
+
+        .week{
+            height: 20px;
+            background-color: rgb(237, 187, 59);
+            font-size: 25px;
+            font-weight: 900;
+        }
+
+        .friday{
+            background-color: rgb(245, 69, 69);
+        }
+
+
+        @media screen and (max-width:576px) {
+            
+            /*max-width:576px mane holo device er width jodi maximum 576px hoy ba tar cheye kom hoy tahole grid-template-columns: repeat(3, 1fr) eita hobe mane device er display te amra 3 ta column dekhbo
+            r jodi width 576px e r cheye beshi hoy tahole grid-template-columns: repeat(7, 1fr) hobe orthat agey jei ta grid column chilo seita hobe.. mane device er display te amra 7 ta column dekhbo    */
+            
+            .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            
+        }
+        }
+    </style>
+</head>
+<body>
+
+    <h2> Making a Calendar Design Using Grid Layout And Flex Box</h2>
+
+    <div class="container">
+        
+        
+        <div class="box week">Sunday</div>
+        <div class="box week">Monday</div>
+        <div class="box week">Tuesday</div>
+        <div class="box week">Wednesday</div>
+        <div class="box week">Thursday</div>
+        <div class="box week">Friday</div>
+        <div class="box week">Saturday</div>
+        <div class="box other-month">30</div>
+        <div class="box other-month">31</div>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box friday">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+        <div class="box friday">11</div>
+        <div class="box">12</div>
+        <div class="box">13</div>
+        <div class="box">14</div>
+        <div class="box">15</div>
+        <div class="box">16</div>
+        <div class="box">17</div>
+        <div class="box friday">18</div>
+        <div class="box">19</div>
+        <div class="box">20</div>
+        <div class="box">21</div>
+        <div class="box">22</div>
+        <div class="box">23</div>
+        <div class="box">24</div>
+        <div class="box friday">25</div>
+        <div class="box">26</div>
+        <div class="box">27</div>
+        <div class="box">28</div>
+        <div class="box">29</div>
+        <div class="box">30</div>
+        <div class="box other-month">1</div>
+        <div class="box other-month friday">2</div>
+        <div class="box other-month">3</div>
+    </div>
+
+
+    
+</body>
+</html>

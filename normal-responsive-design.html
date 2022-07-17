@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Normal Responsive Design</title>
+
+    <style>
+
+        h1{
+            text-align: center;
+            font-size: 50px;
+            color: blue;
+            
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            column-gap: 20px;
+            row-gap: 20px;
+        }
+
+        .box{
+            border: 3px solid red;
+            height: 550px;
+            border-radius: 10px;
+        }
+
+        .box img{
+            width: 100%;
+            margin-top: 20px;
+            
+        }
+
+        button{
+            font-size: 17px;
+            background-color: yellowgreen;
+            color: black;
+            font-weight: 600;
+            padding-left: 12px;
+            padding-right: 12px;
+            margin-left: 20px;
+            border-radius: 5px;
+        }
+
+
+        @media screen and (max-width:576px){
+            .container{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+
+        .box{
+            background-color: rgb(252, 247, 147);
+        }
+        }
+
+
+        @media screen and (min-width:577px) and (max-width:992px){
+            .container{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+
+        .box{
+            background-color: rgb(112, 152, 246);
+        }
+        }
+
+
+        @media screen and (min-width:993px) and (max-width:1400px){
+            .container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+
+        .box{
+            background-color: rgb(119, 253, 109);
+        }
+        }
+
+
+        @media screen and (min-width:1401px) and (max-width:3600px){
+            .container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+        }
+
+        .box{
+            background-color: rgb(251, 148, 64);
+        }
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <h1> Responsive Design </h1>
+
+    <div class="container">
+
+
+        <div class="box">
+            <img src="image/gift.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolorum est suscipit possimus dicta adipisci obcaecati nulla reiciendis alias officia, impedit eius corporis neque soluta praesentium delectus quos vitae excepturi ea, error ipsam. Voluptatum similique quibusdam repellendus, vel ipsum quas consequuntur expedita aut atque, esse eos nesciunt pariatur voluptatibus commodi.</p>
+            <button>Buy Now</button>
+        </div>
+
+
+        <div class="box">
+            <img src="image/gift.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolorum est suscipit possimus dicta adipisci obcaecati nulla reiciendis alias officia, impedit eius corporis neque soluta praesentium delectus quos vitae excepturi ea, error ipsam. Voluptatum similique quibusdam repellendus, vel ipsum quas consequuntur expedita aut atque, esse eos nesciunt pariatur voluptatibus commodi.</p>
+            <button>Buy Now</button>
+        </div>
+
+
+        <div class="box">
+            <img src="image/gift.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolorum est suscipit possimus dicta adipisci obcaecati nulla reiciendis alias officia, impedit eius corporis neque soluta praesentium delectus quos vitae excepturi ea, error ipsam. Voluptatum similique quibusdam repellendus, vel ipsum quas consequuntur expedita aut atque, esse eos nesciunt pariatur voluptatibus commodi.</p>
+            <button>Buy Now</button>
+        </div>
+
+
+        <div class="box">
+            <img src="image/gift.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolorum est suscipit possimus dicta adipisci obcaecati nulla reiciendis alias officia, impedit eius corporis neque soluta praesentium delectus quos vitae excepturi ea, error ipsam. Voluptatum similique quibusdam repellendus, vel ipsum quas consequuntur expedita aut atque, esse eos nesciunt pariatur voluptatibus commodi.</p>
+            <button>Buy Now</button>
+        </div>
+
+
+        <div class="box">
+            <img src="image/gift.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolorum est suscipit possimus dicta adipisci obcaecati nulla reiciendis alias officia, impedit eius corporis neque soluta praesentium delectus quos vitae excepturi ea, error ipsam. Voluptatum similique quibusdam repellendus, vel ipsum quas consequuntur expedita aut atque, esse eos nesciunt pariatur voluptatibus commodi.</p>
+            <button>Buy Now</button>
+        </div>
+
+
+        <div class="box">
+            <img src="image/gift.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolorum est suscipit possimus dicta adipisci obcaecati nulla reiciendis alias officia, impedit eius corporis neque soluta praesentium delectus quos vitae excepturi ea, error ipsam. Voluptatum similique quibusdam repellendus, vel ipsum quas consequuntur expedita aut atque, esse eos nesciunt pariatur voluptatibus commodi.</p>
+            <button>Buy Now</button>
+        </div>
+
+
+        <div class="box">
+            <img src="image/gift.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolorum est suscipit possimus dicta adipisci obcaecati nulla reiciendis alias officia, impedit eius corporis neque soluta praesentium delectus quos vitae excepturi ea, error ipsam. Voluptatum similique quibusdam repellendus, vel ipsum quas consequuntur expedita aut atque, esse eos nesciunt pariatur voluptatibus commodi.</p>
+            <button>Buy Now</button>
+        </div>
+
+
+        <div class="box">
+            <img src="image/gift.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolorum est suscipit possimus dicta adipisci obcaecati nulla reiciendis alias officia, impedit eius corporis neque soluta praesentium delectus quos vitae excepturi ea, error ipsam. Voluptatum similique quibusdam repellendus, vel ipsum quas consequuntur expedita aut atque, esse eos nesciunt pariatur voluptatibus commodi.</p>
+            <button>Buy Now</button>
+        </div>
+
+
+        <div class="box">
+            <img src="image/gift.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolorum est suscipit possimus dicta adipisci obcaecati nulla reiciendis alias officia, impedit eius corporis neque soluta praesentium delectus quos vitae excepturi ea, error ipsam. Voluptatum similique quibusdam repellendus, vel ipsum quas consequuntur expedita aut atque, esse eos nesciunt pariatur voluptatibus commodi.</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="box">
+            <img src="image/gift.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolorum est suscipit possimus dicta adipisci obcaecati nulla reiciendis alias officia, impedit eius corporis neque soluta praesentium delectus quos vitae excepturi ea, error ipsam. Voluptatum similique quibusdam repellendus, vel ipsum quas consequuntur expedita aut atque, esse eos nesciunt pariatur voluptatibus commodi.</p>
+            <button>Buy Now</button>
+        </div>
+
+
+        <div class="box">
+            <img src="image/gift.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolorum est suscipit possimus dicta adipisci obcaecati nulla reiciendis alias officia, impedit eius corporis neque soluta praesentium delectus quos vitae excepturi ea, error ipsam. Voluptatum similique quibusdam repellendus, vel ipsum quas consequuntur expedita aut atque, esse eos nesciunt pariatur voluptatibus commodi.</p>
+            <button>Buy Now</button>
+        </div>
+
+
+        
+    </div>
+    
+</body>
+</html>
